@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>
+calculator
+</title>,
+<script>
+function disc(x)
+{
+cal.txt.value=cal.txt.value+x
+}
+</script>
+<style>
+.form
+{
+ margin-top:500px;
+	padding:20px; 
+	height: 580px; 
+	width:250px;
+	background:lightgrey;
+	margin-left:350px;
+	border-radius:50px;
+}
+.textbox
+{ 
+  padding:5px; 
+  width:250px; 
+  height: 23px; 
+  background:lightgreen;
+  border-radius:50px;
+}
+.buttton
+{
+	margin:auto;
+	width:100px;
+	background:lightblue;
+
+}
+	</style>
+	</head>
+<body bgcolor="lightyellow">
+<div class="form">
+<h1 align="center">(´･_･`) 🙋<br/> ➕ ➖ ✖ ➗ </h1>
+<form name="cal">
+<div class="textbox">
+<input type="text" size="28"
+name="txt">
+</div>
+ 
+<table border="2" cellpadding="15" bgcolor="lightpink" bordercolor=""
+cellspacing="10">
+<tr>
+<td width="20">
+<input type="button" name="b1" value="1" onclick="disc(b1.value)">
+</td>
+<td>
+<input type="button" name="b2" value="2" onclick="disc(b2.value)">
+</td>
+<td>
+<input type="button" name="b3" value="3" onclick="disc(b3.value)">
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="b4" value="4" onclick="disc(b4.value)">
+</td>
+<td>
+<input type="button" name="b5" value="5" onclick="disc(b5.value)">
+</td>
+<td>
+<input type="button" name="b6" value="6" onclick="disc(b6.value)">
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="b7" value="7"
+ onclick="disc(b7.value)">
+ </td>
+ <td>
+<input type="button" name="b8" value="8" onclick="disc(b8.value)">
+</td>
+<td>
+<input type="button" name="b9" value="9" onclick="disc(b9.value)">
+</td>
+</tr>
+<td>
+<input type="button" name="b0" value="0" onclick="disc(b0.value)">
+</td>
+<td>
+<input type="button" name="dot" value="." onclick="disc(dot.value)">
+</td>
+<td>
+<input type="button" name="ba" value="+" onclick="disc(ba.value)"></tr>
+<tr>
+<td>
+<input type="button" name="bs" value="-" onclick="disc(bs.value)">
+</td>
+<td>
+<input type="button" name="bm" value="*" onclick="disc(bm.value)">
+</td>
+<td>
+<input type="button" name="bd" value="/" onclick="disc(bd.value)">
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" value="=" onclick="txt.value=eval(txt.value)">
+</td>
+<td>
+<input type="button" name="clear" value="clear" onclick="txt.value=' ' ">
+</td>
+<td>
+<input type="button" name="df"
+value="am" onclick="txt.df=#$">
+</td>
+</tr>
+</div>
+</table>
+</form>
+</div>
+<script>
+function disc(x)
+{
+cal.txt.value=cal.txt.value+x
+}
+</script>
+</body>
